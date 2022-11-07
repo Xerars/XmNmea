@@ -1,6 +1,6 @@
 # XmNmea
 
-XmNmea is a Following NMEA-0183 Standard NMEA Parser Library Writting in C Language
+XmNmea is a Follows NMEA-0183 Standard NMEA Parser Library is Written in C Language
 Xm Represents a Medium Level Library Made by William XIAO.
 
 ## Feature
@@ -8,12 +8,12 @@ Xm Represents a Medium Level Library Made by William XIAO.
 1. LightWeight(Only 2 Files)
 2. Simple API
 3. C99 Compatible
-4. The Code about 800 Line(The Future will Exceed 1000 Lines)
+4. Code about 800 Line(Will Exceed 1000 Lines in the Future)
 5. Suitable for Embedded Use
 * Xs Level Code Under 1000 Lines 
-* Xm Level Code is Between 1000 ~ 5000 Lines
-* Xl Level Code is Between 5000 ~ 10000 Lines
-* Xe Level Code is Over 10000 Lines
+* Xm Level Code Between 1000 ~ 5000 Lines
+* Xl Level Code Between 5000 ~ 10000 Lines
+* Xe Level Code Over 10000 Lines
 
 ## Install
 
@@ -32,9 +32,9 @@ Xm Represents a Medium Level Library Made by William XIAO.
 
 ## Usage
 
-* The Four Functions are Particularly Important,the Others are Sub Function.
-1. NMEAInit() : Must be Used First, It can Initialize your Structure Memory.
-2. GetNMEA() : It can get the Parsed NMEA-0183 Data.
+* The Following Four Functions are Particularly Important,while Others are Sub Function.
+1. NMEAInit() : Make Sure to Use this Function First, It can Initialize your Structure Memory.
+2. GetNMEA() : It can Get Parsed NMEA-0183 Data.
 3. XmNmeaBufferGet() : Parser NMEA Data with NMEA Character.(Designed for GPS Uart)
 4. XmNmeaParse() : Parser NMEA Data with NEMA Sentence.
 
@@ -75,7 +75,7 @@ while(1)
 
 ## Future
 
-I will Complete all NMEA-0183 Sentences, First I will Add Garmin's Sentence.
+I will Complete all NMEA-0183 Sentences. First, I am going to Add Garmin's Sentence.
 
 ## LICENSE
 
